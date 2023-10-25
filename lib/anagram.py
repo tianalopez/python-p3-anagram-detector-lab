@@ -15,3 +15,14 @@ class Anagram:
         anagram_list.append(el)
       else:
         return anagram_list
+
+#refactored solution for the definition
+
+  # def match(self, word_list):
+  #   anagram_list=[]
+  #   match_list=sorted(self.word) #returns a new sorted list, not modified
+  #   for el in word_list:
+  #     if sorted(el) == match_list:
+  #       anagram_list.append(el)
+
+  #   return anagram_list
